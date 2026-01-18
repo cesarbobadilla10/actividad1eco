@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef6f0;
+    color: #1f3d2b;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Sección destinos */
+#proyectos {
+    text-align: center;
+}
+
+#proyectos h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+/* Lista */
+.lista-proyectos {
+    list-style: none;
+    padding: 0;
+}
+
+/* Tarjetas */
+.proyecto {
+    background-color: white;
+    border: 2px solid #2e7d32;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 360px;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.proyecto h3 {
+    color: #2e7d32;
+    margin: 10px 0;
+}
+
+.proyecto a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .proyecto {
+        max-width: 90%;
+    }
+}
